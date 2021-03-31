@@ -1,0 +1,27 @@
+.navbar1 {
+  width: 100%;
+  background-color: #171717;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  z-index: 50;
+}
+
+.navbar_logo1 h2 {
+  color: #f4f4f4;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+@media (max-width: 960px) {
+  .navbar .links {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar .links {
+    font-size: 17px;
+  }
+}
